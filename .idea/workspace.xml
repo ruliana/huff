@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96567430-0205-40d6-9c2f-e203dffc5504" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/lib/huff/huff_spec.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/huff/encoding_tree_builder.rb" afterPath="$PROJECT_DIR$/lib/huff/encoding_tree_builder.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/huff/encoding_tree_builder_spec.rb" afterPath="$PROJECT_DIR$/spec/lib/huff/encoding_tree_builder_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/huff/frequency_meter.rb" afterPath="$PROJECT_DIR$/lib/huff/frequency_meter.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huff.gemspec" afterPath="$PROJECT_DIR$/huff.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/huff.rb" afterPath="$PROJECT_DIR$/lib/huff.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="huff.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +47,8 @@
       <file leaf-file-name="huff.gemspec" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/huff.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2635432" vertical-offset="0" max-vertical-offset="683">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.23718888" vertical-offset="0" max-vertical-offset="683">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -472,8 +466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/huff.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2635432" vertical-offset="0" max-vertical-offset="683">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.23718888" vertical-offset="0" max-vertical-offset="683">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
           <folding />
         </state>
       </provider>
