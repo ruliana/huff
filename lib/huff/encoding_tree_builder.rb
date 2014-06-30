@@ -36,7 +36,7 @@ module Huff
     def simplify(freqs)
       _, chars, b1, b2 = freqs
       if b1
-        [chars, simplify(b1), simplify(b2)]
+        [simplify(b1), simplify(b2)]
       else
         chars
       end

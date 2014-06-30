@@ -11,7 +11,7 @@ describe EncodingTreeBuilder do
   it 'builds a simplified Huffman tree' do
     frequencies = [[1, 'a'], [2, 'b'], [3, 'c']]
     subject = EncodingTreeBuilder.new(frequencies)
-    expect(subject.simplified_tree).to eq ['cba', 'c', ['ba', 'b', 'a']]
+    expect(subject.simplified_tree).to eq ['c', ['b', 'a']]
   end
 
   it 'builds a simplified Huffman for more complex frequencies' do
@@ -24,12 +24,9 @@ describe EncodingTreeBuilder do
                    [4, 's'],
                    [5, 'i']]
     subject = EncodingTreeBuilder.new(frequencies)
-    expect(subject.simplified_tree).to eq ['isrpe mv',
-                                ['is', 'i', 's'],
-                                ['rpe mv',
-                                 ['rp', 'r', 'p'],
-                                 ['e mv',
-                                  ['e ', 'e', ' '],
-                                  ['mv', 'm', 'v']]]]
+    expect(subject.simplified_tree).to eq [['i', 's'],
+                                           [['r', 'p'],
+                                            [['e', ' '],
+                                             ['m', 'v']]]]
   end
 end
