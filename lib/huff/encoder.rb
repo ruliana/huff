@@ -11,7 +11,7 @@ module Huff
     end
 
     def encode_36(text)
-      encode_string(text).to_i(2).to_s(36).upcase
+      encode_string(text).to_i(2).to_s(36)
     end
   end
 end

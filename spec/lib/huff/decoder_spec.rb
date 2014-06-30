@@ -6,7 +6,7 @@ describe Decoder do
     encoding_tree = ['c', ['b', 'a']]
     subject = Decoder.new(encoding_tree)
     expect(subject.decode_string('11100')).to eq 'abc'
-    expect(subject.decode_36('S')).to eq 'abc'
+    expect(subject.decode_36('s')).to eq 'abc'
   end
 
   it 'decodes a more complex string' do
@@ -16,6 +16,8 @@ describe Decoder do
                        ['m', 'v']]]]
     subject = Decoder.new(encoding_tree)
     expect(subject.decode_string('1110000101000101001010011011000011111100100')).to eq 'mississipi river'
-    expect(subject.decode_36('2QRT5J4RO')).to eq 'mississipi river'
+    # Decoding is case insensitive
+    expect(subject.decode_36('2QrT5J4ro')).to eq 'mississipi river'
+    expect(subject.decode_36('2qRt5j4RO')).to eq 'mississipi river'
   end
 end
