@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Huff::VERSION
   spec.authors       = ["Ronie Uliana"]
   spec.email         = ["ronie.uliana@vagas.com.br"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{A string based UUID generator}
+  spec.description   = %q{You need a UUID from some string. Maybe a URL shortner without a database, or some kind of ID passed as parameter. This gem uses Huffman Coding [http://en.wikipedia.org/wiki/Huffman_coding] and base 36 integers [http://en.wikipedia.org/wiki/Base_36] to create such ID.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
